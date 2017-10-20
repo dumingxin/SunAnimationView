@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.dmx.customviewdemo.SunAnimationView
+        android:id="@+id/sun_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:sun_circle_color="@color/text_black_two"
+        app:sun_circle_radius="150"
+        app:sun_font_color="@color/text_black_three"
+        app:sun_font_size="12px" />
+
+    <Button
+        android:id="@+id/btn_set_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="设置时间" />
+
+</LinearLayout>
